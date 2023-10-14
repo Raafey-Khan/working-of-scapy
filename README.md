@@ -18,7 +18,7 @@ def scan(ip_range):
     return active_hosts
 
 if __name__ == "__main__":
-    target_ip_range = "192.168.1.1/24"  # Adjust the IP range as needed
+    target_ip_range = "Enter you ip here/24"  # Adjust the IP range as needed
 
     active_hosts = scan(target_ip_range)
     for host in active_hosts:
